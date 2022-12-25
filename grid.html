@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid Example</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #eeee;
+        }
+        .main_container{
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-top: 50px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .grid_container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,  minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+        .items{
+            padding: 15px;
+        }
+        .one{
+            background-color: aqua;
+        }
+        .two{
+            background-color: blueviolet;
+        }
+        .three{
+            background-color: khaki;
+        }
+        .four{
+            background-color: hotpink;
+        }
+        .five{
+            background-color: lightgreen;
+        }
+        .six{
+            background-color: lightcyan;
+        }
+        .seven{
+            background-color: lightgray;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="grid_container">
+            <div class="items one">
+                <p>
+                    ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae at quos iure nemo facilis quibusdam omnis nostrum totam quo!
+                </p>
+            </div>
+            <div class="items two">
+                <p>
+                    ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae at quos iure nemo facilis quibusdam omnis nostrum totam quo!
+                </p>
+            </div>
+            <div class="items three">
+                <p>
+                    ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae at quos iure nemo facilis quibusdam omnis nostrum totam quo!
+                </p>
+            </div>
+            <div class="items four">
+                <p>
+                    ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae at quos iure nemo facilis quibusdam omnis nostrum totam quo!
+                </p>
+            </div>
+            <div class="items five">
+                <p>
+                    ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae at quos iure nemo facilis quibusdam omnis nostrum totam quo!
+                </p>
+            </div>
+            <div class="items six">
+                <p>
+                    ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae at quos iure nemo facilis quibusdam omnis nostrum totam quo!
+                </p>
+            </div>
+            <div class="items seven">
+                <p>
+                    ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus repudiandae at quos iure nemo facilis quibusdam omnis nostrum totam quo!
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
